@@ -51,7 +51,7 @@ cd ~/ohmyposh-theme
 
 ```bash
 mkdir -p ~/.config/ohmyposh/themes
-cp pixelrobots.omp.json ~/.config/ohmyposh/themes/
+cp NeonGrid.json ~/.config/ohmyposh/themes/
 ```
 
 ## Configuration
@@ -59,7 +59,7 @@ cp pixelrobots.omp.json ~/.config/ohmyposh/themes/
 Enable the theme in your shell by adding the init line to `~/.bashrc`:
 
 ```bash
-eval "$(oh-my-posh init bash --config ~/.config/ohmyposh/themes/pixelrobots.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.config/ohmyposh/themes/NeonGrid.json)"
 ```
 
 If you want to generate the exact shell initialization snippet, run:
@@ -78,7 +78,7 @@ source ~/.bashrc
 
 ## File Structure
 
-- Theme file: pixelrobots.omp.json
+- Theme file: NeonGrid.json
 - Recommended theme directory: `~/.config/ohmyposh/themes/`
 - Legacy theme directories:
   - `~/.poshthemes`
@@ -88,7 +88,7 @@ source ~/.bashrc
 
 To customize the theme:
 
-- Edit `~/.config/ohmyposh/themes/pixelrobots.omp.json`
+- Edit `~/.config/ohmyposh/themes/NeonGrid.json`
 - Change colors, segments, icons, or text templates
 - Reload your shell after saving changes:
 
@@ -106,7 +106,7 @@ If you use another shell, replace `bash` with `zsh` or `fish` in the `oh-my-posh
 
 - Theme not loading?
   - Confirm the theme path is correct:
-    `~/.config/ohmyposh/themes/pixelrobots.omp.json`
+    `~/.config/ohmyposh/themes/NeonGrid.json`
   - Verify the shell init line is present in `~/.bashrc`.
 
 - `oh-my-posh` command not found?
