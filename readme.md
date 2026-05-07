@@ -14,40 +14,52 @@
 
 ## Installation
 
-1. Install Oh My Posh:
+Step 1: Install Oh My Posh
+
+Oh My Posh is the tool that makes your terminal look cool. Run this command to install it in your home bin folder:
 
 ```bash
 curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
 ```
 
-If you prefer the default install location:
+If you want to install it in the default system location instead, use this:
 
 ```bash
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
-2. Verify the installation:
+Step 2: Check if Oh My Posh is installed correctly
+
+After installation, verify it works by checking the version:
 
 ```bash
 oh-my-posh --version
 ```
 
-3. Install the recommended font set:
+You should see the version number if it's installed properly.
+
+Step 3: Install the required fonts
+
+Icons and symbols need special fonts. Install the recommended font set with:
 
 ```bash
 oh-my-posh font install
 ```
 
-If you want a specific patched font, use a Nerd Font build such as JetBrains Mono Nerd Font.
+If you prefer a specific font, try JetBrains Mono Nerd Font, which includes all the icons.
 
-4. Clone this repository or copy the theme file:
+Step 4: Get the theme files
+
+Download this theme from GitHub:
 
 ```bash
-git clone <repo-url> ~/ohmyposh-theme
+git clone https://github.com/akash01974/ohmyposh-themes.git ~/ohmyposh-theme
 cd ~/ohmyposh-theme
 ```
 
-5. Place the theme file in your Oh My Posh config directory:
+Step 5: Set up the theme file
+
+Copy the theme file to the right place:
 
 ```bash
 mkdir -p ~/.config/ohmyposh/themes
@@ -55,6 +67,7 @@ cp NeonGrid.json ~/.config/ohmyposh/themes/
 ```
 
 ## Configuration
+
 
 Enable the theme in your shell by adding the init line to `~/.bashrc`:
 
